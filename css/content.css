@@ -1,6 +1,28 @@
 .content {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	position: relative;
-	background: #eaf;
+	background:#fff url("../img/SideselMari1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center 0; 
+	transition:background .6s ease-out;
+}
+.content2 {
+	background:#fff url("../img/SideselMari2.jpg") no-repeat;
+	background-size: cover;
+}
+.content3 {
+	background:#fff url("../img/SideselMari3.jpg") no-repeat;
+	background-size: cover;
+
+}
+.content4 {
+	background:#fff url("../img/SideselMari4.jpg") no-repeat;
+	background-size: cover;
+
+}
+.content5 {
+	background:#fff url("../img/SideselMari5.jpg") no-repeat;
+	background-size: cover;
+
 }

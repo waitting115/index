@@ -2,29 +2,75 @@
 	padding: 0px;
 	margin: 0px;
 }
+html {
+	font-size: 62.5%;
+	font-family: serif, monospace;
+	color: #fff;
+}
 body {
 	width: 100%;
 	height: 100%;
-	background: red;
+	background: #fcfcfc;
 	position: absolute;
 }
 .top {
 	width: 100%;
-	height: 20%;
+	height: 10%;
 	min-height: 60px;
-	max-height: 80px;
+	max-height: 150px;
+	background: linear-gradient(to right, #3e2b27, #392622, #402d29, #a9726f, #b87b76, #c0817c);
+
 	position: relative;
+	padding-bottom: 2px solid #000;
 	display: flex;/*!*/
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	align-items: center;
-	/*border-bottom: 2px solid #ccc;*/
+
+	transition:background .6s ease-out;
+	/*-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;*/
+}
+.top2 {
+	background: #496179;
+
+}
+.top3 {
+	background: #191816;
+
+}
+.top4 {
+	background: linear-gradient(to right, #000, #583c38, #754c48, #000);
+	
+}
+.top5 {
+	background: #7c4950;
+
+}
+.fontblack {
+	color: #000;
 }
 .top .name {
 	width: 20%;
 	height: 100%;
-	background: #fec;
 	text-align: center;
+}
+.top div a {
+	color: #fff;
+	text-decoration: none;
+	transition: color .6s ease-out;
+}
+.top div a:link {
+	color: #fff;
+}
+.top div a:visited {
+	color: #fff;
+}
+.top div a:hover {
+	color: #acacac;
+}
+.top div a:active {
+	color: #000;
 }
 .top .name::after, .top .name .nameSpan {
 	display: inline-block;
@@ -35,12 +81,13 @@ body {
 	height: 100%;
 }
 .top .name .nameSpan {
-
+	font-size: 2.5rem;
+	/*color: #fff;*/
 }
 .top .tabBar {
 	width: 65%;
 	height: 100%;
-	background: #edc;
+	/*background: #edc;*/
 	/*text-align: center;*/
 	display: flex;
 	flex-flow: row nowrap;
@@ -48,7 +95,7 @@ body {
 	align-items: center;
 }
 .top .tabBar .ul {
-	background: red;
+	/*background: red;*/
 	width: 80%;
 	height: auto;
 	display: flex;
@@ -58,14 +105,14 @@ body {
 }
 .top .tabBar .ul li {
 	list-style-type: none;
-	background: yellow;
-	font-size: 1.5rem;
+	/*background: yellow;*/
+	font-size: 1.8rem;
 }
 .top .wecome {
 	width: 15%;
 	height: 100%;
 	text-align: center;
-	background: #ead;
+	/*background: #ead;*/
 }
 .top .wecome::after, .top .wecome span {
 	display: inline-block;
@@ -75,4 +122,6 @@ body {
 	content: '';
 	height: 100%;
 }
-
+.top .wecome span {
+	font-size: 1.6rem;
+}
