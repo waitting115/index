@@ -6,6 +6,11 @@
 	background-size: cover;
 	background-position: center 0; 
 	transition: background .6s ease-in;
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
 }
 .content2 {
 	background:#fff url("../img/SideselMari2.jpg") no-repeat;
@@ -49,4 +54,31 @@
 @keyframes opacitychange5 {
 	from { opacity: 1; }
 	to { opacity: 0.4 }
+}
+
+.soul {
+	width: 50%;
+	height: 50%;
+	color: #000;
+	z-index: 1000;
+	background: red;
+	margin: 0 auto;
+	background: rgba(255,255,255,1);
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.soul h1 {
+	font-size: 5rem;
+}
+.soul p {
+	text-indent: 4rem;
+	font-size: 2rem;
+	line-height: 130%;
+}
+.soul button {
+	font-size: 3rem;
+	background: none;
+	border: none;
 }
