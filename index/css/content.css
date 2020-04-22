@@ -16,27 +16,27 @@
 	background:#fff url("../img/SideselMari2.jpg") no-repeat;
 	background-size: cover;/*起到了防抖的作用*/
 	opacity: 0.4;/*确定animation动画执行完的最终状态*/
-	animation: opacitychange2 1s ease-in 1;
+	/*animation: opacitychange2 1s ease-in 1;*/
 }
 .content3 {
 	background:#fff url("../img/SideselMari3.jpg") no-repeat;
 	background-size: cover;
-	opacity: 0.4;
-	animation: opacitychange3 1s ease-in 1;
+	/*opacity: 0.4;*/
+	/*animation: opacitychange3 1s ease-in 1;*/
 
 }
 .content4 {
 	background:#fff url("../img/SideselMari4.jpg") no-repeat;
 	background-size: cover;
-	opacity: 0.4;
-	animation: opacitychange4 1s ease-in 1;
+	/*opacity: 0.4;*/
+	/*animation: opacitychange4 1s ease-in 1;*/
 
 }
 .content5 {
 	background:#fff url("../img/SideselMari5.jpg") no-repeat;
 	background-size: cover;
 	opacity: 0.4;
-	animation: opacitychange5 1s ease-in 1;
+	/*animation: opacitychange5 1s ease-in 1;*/
 
 }
 @keyframes opacitychange2 {
